@@ -9,7 +9,7 @@ trigger:
 pool:
   name: Linux-AP
   demands:
-  - agent.name -equals devopsnifemi-rg
+  - agent.name -equals demopool-vm
 
 steps:
 - script: echo Hello, world!
